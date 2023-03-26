@@ -45,7 +45,11 @@
     display: flex;
     background-color: #00cad1;
     width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
   }
+
   .topo .container {
     display: flex;
     align-items: center;
@@ -64,6 +68,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .topo-titulo a {
     display: flex;
   }
@@ -94,7 +99,6 @@
   }
   /* Fim CSS Topo */
   
-  
   /* Início CSS Rodapé */
   footer {
     background-color: #0d6e71;
@@ -107,10 +111,7 @@
   }
   /* Fim CSS Rodapé */
   
-  
-  #sobre,
-  #especialidades,
-  #contato {
+  #sobre, #especialidades, #contato {
     padding: 40px 20px 0;
   }
   
